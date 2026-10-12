@@ -14,15 +14,19 @@ no tokens.
 
 ## Install
 
-At the prompt of a Claude Code terminal session:
+You need Claude Code 2.1.295 or newer. Type this at the prompt of a Claude Code session in a
+terminal:
 
 ```
 /plugin install usage-bars --marketplace karolis-z/claude-usage-bars
 ```
 
-Answer `y` to add the marketplace, then pick the user scope. A user-scope install also loads in
-the desktop app's Code tab. The repository is private, so installing needs a GitHub login with
-access to it.
+Answer `y` to add the marketplace, then pick the **user** scope. The bars show up in that session
+straight away, and in every session after.
+
+The desktop app's Code tab doesn't take this command, but a user-scope install from a terminal loads
+there too. The Fable weekly figure needs the desktop app; in a terminal the weekly bar shows all
+models.
 
 ## How to use
 

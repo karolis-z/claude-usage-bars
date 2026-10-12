@@ -1,8 +1,10 @@
 {
   "name": "usage-bars",
-  "version": "0.1.0",
-  "description": "Three progress bars above the prompt: context window, 5-hour session, and Fable weekly limit.",
-  "author": { "name": "Karolis" },
+  "version": "0.3.0",
+  "description": "Progress bars above the prompt: context, 5-hour session and Fable weekly limit, with your own thresholds, alerts and a details pane.",
+  "author": {
+    "name": "Karolis"
+  },
   "license": "MIT",
   "types": "./types/index.d.ts"
 }

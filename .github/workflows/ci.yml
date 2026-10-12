@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # The release the mod is built against (BUILT_FOR in hooks/register.tsx).
+      - run: npm install -g @anthropic-ai/claude-code@2.1.295
+      - run: claude plugin validate .
+      - run: claude plugin test .

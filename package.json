@@ -1,0 +1,13 @@
+{
+  "name": "claude-usage-bars",
+  "private": true,
+  "description": "Development scripts for the usage-bars Claude Code mod.",
+  "scripts": {
+    "validate": "claude plugin validate .",
+    "test": "claude plugin test .",
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

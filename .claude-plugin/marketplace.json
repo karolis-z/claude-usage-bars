@@ -1,0 +1,13 @@
+{
+  "name": "claude-usage-bars",
+  "description": "Usage bars for Claude Code: context window, 5-hour session and weekly limit above the prompt.",
+  "owner": {
+    "name": "Karolis"
+  },
+  "plugins": [
+    {
+      "name": "usage-bars",
+      "source": "./"
+    }
+  ]
+}
